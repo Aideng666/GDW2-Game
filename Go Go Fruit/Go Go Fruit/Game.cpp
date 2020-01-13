@@ -29,7 +29,7 @@ void Game::InitGame()
 {
 	//Scene names and clear colors
 	m_name = "Go Go Fruit";
-	m_clearColor = vec4(0.f, 0.75f, 0.35f, 1.f);
+	m_clearColor = vec4(0.f, 0.0f, 0.0f, 1.f);
 
 	//Initializes the backend
 	BackEnd::InitBackEnd(m_name);
