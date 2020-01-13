@@ -37,7 +37,7 @@ void Game::InitGame()
 	//Grabs the initialized window
 	m_window = BackEnd::GetWindow();
 
-	m_scenes.push_back(new HelloWorld("Hello World"));
+	m_scenes.push_back(new GoGoFruitMenu("Go Go Fruit"));
 	m_activeScene = m_scenes[0];
 
 	m_activeScene->InitScene(float(BackEnd::GetWindowWidth()), float(BackEnd::GetWindowHeight()));

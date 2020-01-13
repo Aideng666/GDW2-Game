@@ -2,10 +2,10 @@
 
 #include "Scene.h"
 
-class HelloWorld : public Scene
+class GoGoFruitMenu : public Scene
 {
 public:
-	HelloWorld(std::string name);
+	GoGoFruitMenu(std::string name);
 
 	void InitScene(float windowWidth, float windowHeight) override;
 };
